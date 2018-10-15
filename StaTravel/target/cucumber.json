@@ -1,0 +1,140 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4830228090,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify if the “X matches found” text is equal to the actual number of results displayed",
+        "description": "",
+        "id": "verify-the-search-results;verify-if-the-“x-matches-found”-text-is-equal-to-the-actual-number-of-results-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 117461875,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 81512025,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in HomePage",
+            "match": {
+              "location": "HomePageStepDef.i_am_in_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1336282095,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select the country \"India\" from the AJAX",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India",
+                  "offset": 22
+                }
+              ],
+              "location": "HomePageStepDef.i_select_the_country_from_the_AJAX(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3330288678,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select find a tour button",
+            "match": {
+              "location": "HomePageStepDef.i_select_fina_a_tour_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5719315,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see search results page",
+            "match": {
+              "location": "SearchResultsPageStepDef.i_should_see_search_results_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181413206,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I change the sort order to Price(Low-High)",
+            "match": {
+              "location": "SearchResultsPageStepDef.i_change_the_sort_order_to_Price_Low_High()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281043369,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select view more button to see more results",
+            "match": {
+              "location": "SearchResultsPageStepDef.i_select_view_more_button_to_see_more_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220755471,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the total matches found text is equal to the actual number of results displayed",
+            "match": {
+              "location": "SearchResultsPageStepDef.i_verify_the_total_matches_found_text_is_equal_to_the_actual_number_of_results_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Search Results",
+    "description": "",
+    "id": "verify-the-search-results",
+    "keyword": "Feature",
+    "uri": "VerifySearchResults.feature"
+  }
+]
